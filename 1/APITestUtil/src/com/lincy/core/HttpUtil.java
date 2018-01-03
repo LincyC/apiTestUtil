@@ -12,6 +12,7 @@ import com.lincy.enumeration.RequestMethodEnum;
 /**
  * @author lcy79
  * http工具，发送请求以及接收服务器返回结果。
+ * http util,send request and recive response.
  */
 public class HttpUtil {
 	/**
