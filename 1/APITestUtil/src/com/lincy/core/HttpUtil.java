@@ -46,7 +46,7 @@ public class HttpUtil {
 		
 		//发送requestBody
 		OutputStream out=conn.getOutputStream();
-		out.write(requestBody.getBytes()); 
+		out.write(requestBody.getBytes("utf-8"));  
 		out.flush();
 		out.close();
 		
